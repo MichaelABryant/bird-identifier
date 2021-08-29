@@ -1,0 +1,36 @@
+ <!doctype html>
+ <html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bird Identifier</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}?v=97">
+  <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <a style="text-decoration:none" href="/">
+        <h1 class='heading_font'>Bird Identifier</h1>
+        </a>
+    </div>
+    <div class="ml-container"> 
+        <div id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
+    </div>
+</body>
+
+       		<!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/MichaelBryantDS/bird-species-pred"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/MichaelBryantDS"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+               <a target="_blank" href="mailto:MichaelBryantDS@gmail.com"><i class="far fa-envelope fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>2021 &copy; Michael Bryant</p></p>
+       </div>
+        
+    </body>
+ </html>
