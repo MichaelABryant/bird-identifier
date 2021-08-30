@@ -34,7 +34,15 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/gpiosenka/100-bird
 
 ### Neural Network Building
 
-The images were split into 39364 training images, 1375 validation images, and 1375 test images. The train images were augmented after overfitting occurred.
+The images were split into 39364 training images, 1375 validation images, and 1375 test images.
+
+I decided to use transfer learning, so I tested several different pre-trained models and assessed them based on accuracy. I used early stopping to prevent overfitting. The output layer had 275 units with a softmax activation function. The best pre-trained model was Inception ResNet V2.
+
+I then implemented image augmentation, because the model was fitting the training set faster than the validation set.
+
+After this, I experimented with different amounts of hidden layers and number of neurons. I found that wider neural networks had higher accuracy than deep neural networks. The number of neurons I settled on was 1950 in a single layer. I used flatten and batch normalization to improve the performance.
+
+Lastly, the validation accuracy plateaued around 90%, but I prevented by reducing the learning rate each time a plateau occurred. 
 
 ### Neural Network Performance
 
