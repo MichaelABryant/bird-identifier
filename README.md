@@ -103,8 +103,8 @@ After adding an additional hidden layer with 1950 neurons, batch normalization, 
 <br/>
 
 Final performance metrics:
-* Accuracy: 0.9687
-* Loss: 0.1081
+* **Accuracy:** 0.9687
+* **Loss:** 0.1081
 
 ## Productionization
 
