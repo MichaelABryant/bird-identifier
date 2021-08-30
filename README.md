@@ -80,7 +80,7 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 
 <figure>
 <img src="images/training-first-results.jpg"><br/>
-  <figcaption>Figure 3: Training (blue) and validation (orange) performance for loss and accuracy for the first baseline training.</figcaption>
+  <figcaption>Figure 3: Training (blue) and validation (orange) performance for accuracy and loss for the first baseline training.</figcaption>
 </figure>
 
 </div>
@@ -92,7 +92,7 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 
 <figure>
 <img src="images/training-final-results.jpg"><br/>
-  <figcaption>Figure 4: Training (blue) and validation (orange) performance for loss and accuracy during the final training.</figcaption>
+  <figcaption>Figure 4: Training (blue) and validation (orange) performance for accuracy and loss during the final training.</figcaption>
 </figure>
 
 </div>
