@@ -68,6 +68,9 @@ I then implemented image augmentation, because the model was fitting the trainin
 
 </div>
 
+<br/>
+<br/>
+
 After this, I experimented with different amounts of additional hidden layers and number of neurons. I found that adding one wide additional layer improved accuracy over multiple additional hidden layers. The number of neurons I settled on was 1950 in a single layer. I used flatten and batch normalization to improve the performance.
 
 Lastly, the validation accuracy plateaued around 90%, but I prevented by reducing the learning rate each time a plateau occurred. 
