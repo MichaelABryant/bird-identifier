@@ -5,7 +5,7 @@ This repository is for the analysis of a bird images dataset, and the creation a
 ### Code Used 
 
 **Python Version:** 3.7.10 <br />
-**Packages:** pandas, numpy, matplotlib, tensorflow, keras flask<br />
+**Packages:** pandas, numpy, matplotlib, tensorflow, keras, flask<br />
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 
 ## Bird Images Dataset
