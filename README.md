@@ -101,4 +101,5 @@ I built a front-end to run on my local machine which takes photos of birds as in
 ## Resources
 
 1. [Kaggle: Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
-2. [EZGIF.COM](https://ezgif.com/)
+2. [GitHub: krishnaik06/Deployment-Deep-Learning-Model](https://github.com/krishnaik06/Deployment-Deep-Learning-Model)
+3. [EZGIF.COM](https://ezgif.com/)
