@@ -4,7 +4,7 @@
 
 <figure>
 <img src="images/deployment3.gif"><br/>
-  <figcaption>Figure 1: Deploying app with Flask on local machine.</figcaption>
+  <figcaption>Figure 1: Deploying app with Flask on my local machine.</figcaption>
 </figure>
 
 </div>
