@@ -40,7 +40,7 @@ I decided to use transfer learning, so I tested several different pre-trained mo
 
 I then implemented image augmentation, because the model was fitting the training set faster than the validation set.
 
-After this, I experimented with different amounts of hidden layers and number of neurons. I found that wider neural networks had higher accuracy than deep neural networks. The number of neurons I settled on was 1950 in a single layer. I used flatten and batch normalization to improve the performance.
+After this, I experimented with different amounts of additional hidden layers and number of neurons. I found that adding one wide additional layer improved accuracy over multiple additional hidden layers. The number of neurons I settled on was 1950 in a single layer. I used flatten and batch normalization to improve the performance.
 
 Lastly, the validation accuracy plateaued around 90%, but I prevented by reducing the learning rate each time a plateau occurred. 
 
