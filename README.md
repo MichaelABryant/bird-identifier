@@ -88,7 +88,6 @@ The initial (baseline) test performance with just the pre-trained model and flat
 </div>
 
 <br/>
-<br/>
 
 After adding an additional hidden layer with 1950 neurons, batch normalization, and image augmentation, I was able to increase the test accuracy by 6.91% and decrease the loss by 8.2898. The training and validation performance for the final neural network is shown in Figure 4.
 
@@ -100,6 +99,8 @@ After adding an additional hidden layer with 1950 neurons, batch normalization, 
 </figure>
 
 </div>
+
+<br/>
 
 Final performance metrics:
 * Accuracy: 0.9687
