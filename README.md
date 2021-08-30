@@ -42,19 +42,46 @@ This json file contains the architecture of the neural network.
 
 ### EDA
 
+<div align="center">
+
+<figure>
+<img src="images/eda.jpg"><br/>
+  <figcaption>Figure 1: Displaying 15 images after to take a look at the dataset.</figcaption>
+</figure>
+
+</div>
+
 ### Neural Network Building
 
 The images were split into 39364 training images, 1375 validation images, and 1375 test images.
 
 I decided to use transfer learning, so I tested several different pre-trained models and assessed them based on accuracy. I used early stopping to prevent overfitting. The output layer had 275 units with a softmax activation function. The best pre-trained model was Inception ResNet V2.
 
-I then implemented image augmentation, because the model was fitting the training set faster than the validation set.
+I then implemented image augmentation, because the model was fitting the training set faster than the validation set. An example of this is shown in Figure 2.
+
+<div align="center">
+
+<figure>
+<img src="images/img-aug.jpg"><br/>
+  <figcaption>Figure 2: Displaying an image after image augmentation.</figcaption>
+</figure>
+
+</div>
 
 After this, I experimented with different amounts of additional hidden layers and number of neurons. I found that adding one wide additional layer improved accuracy over multiple additional hidden layers. The number of neurons I settled on was 1950 in a single layer. I used flatten and batch normalization to improve the performance.
 
 Lastly, the validation accuracy plateaued around 90%, but I prevented by reducing the learning rate each time a plateau occurred. 
 
 ### Neural Network Performance
+
+<div align="center">
+
+<figure>
+<img src="images/training-final-results.jpg"><br/>
+  <figcaption>Figure 3: Training (blue) and validation (orange) performance for loss and accuracy during the final training.</figcaption>
+</figure>
+
+</div>
 
 ## Productionization
 
@@ -64,7 +91,7 @@ I built a front-end to run on my local machine which takes photos of birds as in
 
 <figure>
 <img src="images/deployment3.gif"><br/>
-  <figcaption>Figure #: Deploying app with Flask on my local machine.</figcaption>
+  <figcaption>Figure 4: Deploying app with Flask on my local machine.</figcaption>
 </figure>
 
 </div>
