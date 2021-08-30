@@ -83,6 +83,9 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 
 </div>
 
+<br/>
+<br/>
+
 <div align="center">
 
 <figure>
