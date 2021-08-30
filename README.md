@@ -10,7 +10,7 @@ This repository is for the analysis of a bird images dataset, and the creation a
 
 ## Bird Images Dataset
 
-The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disease-uci). The dataset contains 275 different birds and 42,114 images.
+The dataset was gathered from [Kaggle](https://www.kaggle.com/gpiosenka/100-bird-species). The dataset contains 275 different birds and 42,114 images.
 
 ### Birds
 
@@ -53,6 +53,6 @@ I built a front-end to run on my local machine which takes photos of birds as in
 
 ## Resources
 
-1. [Kaggle: Heart Disease UCI](https://www.kaggle.com/ronitf/heart-disease-uci)
+1. [Kaggle: Bird photos dataset](https://www.kaggle.com/gpiosenka/100-bird-species)
 2. [GitHub: krishnaik06/Deployment-Deep-Learning-Model](https://github.com/krishnaik06/Deployment-Deep-Learning-Model)
 3. [EZGIF.COM](https://ezgif.com/)
