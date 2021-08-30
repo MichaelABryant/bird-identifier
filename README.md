@@ -20,13 +20,23 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/gpiosenka/100-bird
 
 ### app.py
 
+This Python file contains is the back-end where the user input is processed and sent to the neural network for a prediction.
+
 ### bird-classification-inceptionresnetv2-part-1.ipynb
+
+This Jupyter Notebook file contains the EDA, neural network baseline, and first attempt to increase the accuracy.
 
 ### bird-classification-inceptionresnetv2-part-2.ipynb
 
+This Jupyter Notebook fie contains the final neural network training and evaluation.
+
 ### model.h5
 
+This h5 file contains the weights for the neural network.
+
 ### model.json
+
+This json file contains the architecture of the neural network.
 
 ## Results
 
