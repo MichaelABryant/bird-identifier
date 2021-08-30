@@ -1,6 +1,6 @@
 # Project Overview for Bird Identifier App
 
-This repository is for the analysis and modeling done with a bird images dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I create a pipeline to perform an exploratory data analysis (EDA), image augmentation, create a convolution neural network to predict birds, and create a deployed application with a front-end to productionize the neural network.
+This repository is for the analysis of and neural network built with a bird images dataset. Below you will find an overview of the data, code, and results. The goal was to create an end-to-end project where I create a pipeline to perform an exploratory data analysis (EDA), image augmentation, create a convolution neural network to predict birds, and deploy a front-end on my local machine to productionize the neural network.
 
 ### Code Used 
 
