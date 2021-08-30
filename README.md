@@ -63,7 +63,7 @@ I then implemented image augmentation, because the model was fitting the trainin
 
 <figure>
 <img src="images/img-aug.jpg"><br/>
-  <figcaption>Figure 2: Displaying an image after image augmentation.</figcaption>
+  <figcaption>Figure 2: An example of an image after image augmentation.</figcaption>
 </figure>
 
 </div>
