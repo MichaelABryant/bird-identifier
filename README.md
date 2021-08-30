@@ -76,6 +76,8 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 
 ### Neural Network Performance
 
+The initial (baseline) test performance with just the pre-trained model and flattening was 0.8996 accuracy and 8.3979 loss. The training and validation performance for this first neural network is shown in Figure 3.
+
 <div align="center">
 
 <figure>
@@ -88,6 +90,8 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 <br/>
 <br/>
 
+After adding an additional hidden layer with 1950 neurons, batch normalization, and image augmentation, I was able to increase the test accuracy by 6.91% and decrease the loss by 8.2898. The training and validation performance for the final neural network is shown in Figure 4.
+
 <div align="center">
 
 <figure>
@@ -96,6 +100,10 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 </figure>
 
 </div>
+
+Final performance metrics:
+* Accuracy: 0.9687
+* Loss: 0.1081
 
 ## Productionization
 
