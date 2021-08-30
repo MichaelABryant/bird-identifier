@@ -77,8 +77,17 @@ Lastly, the validation accuracy plateaued around 90%, but I prevented by reducin
 <div align="center">
 
 <figure>
+<img src="images/training-first-results.jpg"><br/>
+  <figcaption>Figure 3: Training (blue) and validation (orange) performance for loss and accuracy for the first baseline training.</figcaption>
+</figure>
+
+</div>
+
+<div align="center">
+
+<figure>
 <img src="images/training-final-results.jpg"><br/>
-  <figcaption>Figure 3: Training (blue) and validation (orange) performance for loss and accuracy during the final training.</figcaption>
+  <figcaption>Figure 4: Training (blue) and validation (orange) performance for loss and accuracy during the final training.</figcaption>
 </figure>
 
 </div>
@@ -91,7 +100,7 @@ I built a front-end to run on my local machine which takes photos of birds as in
 
 <figure>
 <img src="images/deployment3.gif"><br/>
-  <figcaption>Figure 4: Deploying app with Flask on my local machine.</figcaption>
+  <figcaption>Figure 5: Deploying app with Flask on my local machine.</figcaption>
 </figure>
 
 </div>
