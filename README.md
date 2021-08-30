@@ -18,6 +18,28 @@ The dataset was gathered from [Kaggle](https://www.kaggle.com/ronitf/heart-disea
 
 ## Files
 
+### static/css/style.css
+
+### templates/base.html
+
+### templates/index.html
+
+### templates/result.html
+
+### .gitattributes
+
+### Procfile
+
+### app.py
+
+### bird-classification-inceptionresnetv2-part-1.ipynb
+
+### bird-classification-inceptionresnetv2-part-2.ipynb
+
+### model.h5
+
+### model.json
+
 ## Results
 
 ### EDA
