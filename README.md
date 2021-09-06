@@ -46,7 +46,7 @@ This json file contains the architecture of the neural network.
 
 <figure>
 <img src="images/eda.jpg"><br/>
-  <figcaption>Figure 1: Displaying 15 images after to take a look at the dataset.</figcaption>
+  <figcaption>Figure 1: Displaying 15 images to take a look at the dataset.</figcaption>
 </figure>
 
 </div>
