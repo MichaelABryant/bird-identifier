@@ -55,7 +55,7 @@ This json file contains the architecture of the neural network.
 
 The images were split into 39364 training images, 1375 validation images, and 1375 test images.
 
-I decided to use transfer learning, so I tested several different pre-trained models and assessed them based on accuracy. I used early stopping to prevent overfitting. The output layer had 275 units with a softmax activation function. The best pre-trained model was Inception ResNet V2.
+I decided to use transfer learning, so I tested several different pre-trained models and assessed them based on accuracy. I used early stopping to prevent overfitting. The output layer had 275 units with a softmax activation function. The best pre-trained model was Inception ResNet V2. For this model, I used a sequential model API.
 
 I then implemented image augmentation, because the model was fitting the training set faster than the validation set. An example of this is shown in Figure 2.
 
